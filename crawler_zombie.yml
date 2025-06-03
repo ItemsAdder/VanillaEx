@@ -1,0 +1,20 @@
+info:
+  namespace: vanillaex
+entities:
+  crawler_zombie:
+    model_folder: entity/crawler_zombie
+    type: ZOMBIE
+    can_sun_burn: false
+    speed:
+      movement: 0.1
+entities_populators:
+  crawler_zombie:
+    entity: vanillaex:happy_creeper
+    chance: 3
+    spawn_logic:
+      method: REPLACE
+      types:
+      - ZOMBIE
+    location_range:
+      y:
+        max: 20
