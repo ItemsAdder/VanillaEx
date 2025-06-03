@@ -1,4 +1,4 @@
-## Get it [on Spigot](https://www.spigotmc.org/resources/vanillaex-custom-mobs-pack.125684/)
+## Seen [on Spigot](https://www.spigotmc.org/resources/vanillaex-custom-mobs-pack.125684/)
 
 ## Note: this requires ItemsAdder 4.0.11 and greater!
 
