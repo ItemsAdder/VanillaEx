@@ -9,7 +9,7 @@ entities:
       movement: 0.1
 entities_populators:
   crawler_zombie:
-    entity: vanillaex:happy_creeper
+    entity: vanillaex:crawler_zombie
     chance: 3
     spawn_logic:
       method: REPLACE

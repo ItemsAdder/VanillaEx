@@ -14,9 +14,23 @@ entities_populators:
 entities:
   happy_creeper:
     model_folder: entity/happy_creeper
-    type: WOLF
+    type: ZOMBIE
     can_sun_burn: false
-    eyes_height: 0.25
+    eyes_height: 0.1
+    goals:
+      move_to_block:
+        priority: 7
+        blocks:
+        - POPPY
+      attack_near:
+        priority: 8
+        entity: CREEPER
+      look_at_entity:
+        priority: 8
+        entity: PLAYER
+      melee_attack:
+        priority: 10
+        enabled: true
 loots:
   mobs:
     happy_creeper:
